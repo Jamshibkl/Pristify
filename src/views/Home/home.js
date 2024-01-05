@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 import { Helmet } from 'react-helmet'
 
-import FeatureCard from '../components/feature-card'
-import Question1 from '../components/question1'
+import FeatureCard from '../../components/feature-card'
+import Question1 from '../../components/question1'
 import HomeBg from "./home-bg.jpg"
 import './home.css'
 
@@ -11,25 +11,43 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Spotless Hungry Crocodile</title>
+        <title>JHRCREATOR</title>
       </Helmet>
       <div className="home-header">
         <header
           data-thq="thq-navbar"
           className="navbarContainer home-navbar-interactive"
         >
-          <span className="logo">JHRCREATOR</span>
+          <span className="logo">JHR <span className='logo-white'>CREATOR</span></span>
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links">
+              <Link to="/">
               <span className="home-nav12 bodySmall">Home</span>
+              </Link>
+              <Link to="/shop">
               <span className="home-nav2 bodySmall">Shop</span>
+              </Link>
+              <Link to="/about"> 
               <span className="home-nav3 bodySmall">About</span>
-              <span className="home-nav4 bodySmall">FAQ</span>
-              <span className="home-nav5 bodySmall">Contact</span>
+              </Link>
+             <Link to="/faq">
+             <span className="home-nav4 bodySmall">FAQ</span>
+             </Link>
+             <Link to="/contact">
+             <span className="home-nav5 bodySmall">Contact</span>
+             </Link>
+             
+              
             </nav>
             <div className="home-buttons">
-              <button className="home-login buttonFlat">Login</button>
-              <button className="buttonFilled">Register</button>
+              <Link to="/login">
+                  <button className="home-login buttonFlat">Login</button>
+              </Link>
+             
+             <Link to="/register">
+                <button className="buttonFilled">Register</button>
+             </Link>
+             
             </div>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">

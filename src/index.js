@@ -4,25 +4,29 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  Redirect,
 } from 'react-router-dom'
 
 import './style.css'
-import NotFound1, { NotFound } from './views/not-found'
-import Home from './views/home'
-import NotFound11 from './views/not-found1'
-import Home1 from './views/home1'
+import Home from './views/Home/home'
+import Shop from './views/Shop/Shop'
+import About from './views/About/About'
+import FAQ from './views/FAQ/FAQ'
+import Contact from './views/Contact/Contact'
+import Login from './views/Login/Login'
+import Register from './views/Register/Register'
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route component={NotFound1} exact path="/not-found" />
         <Route component={Home} exact path="/" />
-        <Route component={NotFound11} exact path="/not-found1" />
-        <Route component={Home1} exact path="/home1" />
-        <Route component={NotFound} path="**" />
-        <Redirect to="**" />
+        <Route component={Shop} exact path="/shop" />
+        <Route component={About} exact path="/about" />
+        <Route component={FAQ} exact path="/faq" />
+        <Route component={Contact} exact path="/contact" />
+        <Route component={Login} exact path="/login" />
+        <Route component={Register} exact path="/register" />
+
       </Switch>
     </Router>
   )

@@ -50,6 +50,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: var(--dl-color-custom-primary1);
+  cursor: pointer;
 }
 .buttonFilled:hover {
   background-color: var(--dl-color-custom-primary2);
@@ -291,7 +292,11 @@
   font-weight: 700;
   line-height: 150%;
   text-transform: uppercase;
+  color: var(--dl-color-custom-primary1);
+}
+.logo-white{
   color: white;
+
 }
 .Content {
   font-size: 16px;
