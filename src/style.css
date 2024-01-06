@@ -81,13 +81,14 @@
   padding-bottom: var(--dl-space-space-halfunit);
 }
 .buttonFlat {
-  color: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-dark);
   font-family: Hind;
   font-weight: bold;
   padding-top: var(--dl-space-space-halfunit);
   padding-left: var(--dl-space-space-oneandhalfunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-halfunit);
+  background: var(--dl-color-gray-700);
 }
 .featuresContainer {
   flex: 0 0 auto;

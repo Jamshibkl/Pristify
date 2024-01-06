@@ -1,0 +1,10 @@
+.home-header {
+    width: 100%;
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--dl-color-gray-white);
+    color: white;
+  }

@@ -1,9 +1,13 @@
 import React from 'react'
 import './Register.css'
-// import BgImage from './bg.jpg'
+import BgImage from './bg.jpg'
 function Register() {
   return (
-    <div className='register'>
+    <div className='register' style={{backgroundImage : `url(${BgImage})`,
+    backgroundRepeat : "no-repeat",
+    backgroundSize : "cover"
+
+}}>
      <div className="form">
       <div className="title">Welcome</div>
       <div className="subtitle">Let's create your account!</div>

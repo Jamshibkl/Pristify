@@ -1,8 +1,13 @@
 import React from "react";
 import "./Login.css";
+import LoginBg from './bg.jpg'
 function Login() {
   return (
-    <div className="login_section">
+    <div className="login_section" style={{backgroundImage : `url(${LoginBg})`,
+    backgroundRepeat : "no-repeat",
+    backgroundSize : "cover"
+
+}}>
         <div className="login wrap">
       <div className="h1">Login</div>
       <input
