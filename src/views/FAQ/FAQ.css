@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .faq-container {
     max-width: 100%;
     margin: 40px auto;
@@ -25,3 +26,32 @@
     line-height: 1.6;
     color: #777;
   }
+=======
+.faq-container {
+    max-width: 100%;
+    margin: 40px auto;
+    background-color: aliceblue;
+    padding: 180px;
+  }
+  
+  .faq-heading {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .faq-answer {
+    line-height: 1.6;
+    color: #777;
+  }
+>>>>>>> fb658c593d36873b01f2efad3fd1bdfc987cb951
