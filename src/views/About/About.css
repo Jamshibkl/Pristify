@@ -1,0 +1,19 @@
+.about-us-container {
+    margin: 0 auto;
+    padding: 120px;
+    height: 100vh;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-heading {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-paragraph {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }

@@ -18,6 +18,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-white);
   color: white;
+  top: 0;
 }
 .home-desktop-menu {
   flex: 1;

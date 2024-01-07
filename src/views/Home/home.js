@@ -13,12 +13,12 @@ const Home = (props) => {
         <title>JHRCREATOR</title>
       </Helmet>
 <Header />
-      <div className="home-hero" style={{backgroundImage : `url(${HomeBg})`,
+      <div className="home-hero">
+        <div className="heroContainer home-hero1" style={{backgroundImage : `url(${HomeBg})`,
     backgroundRepeat : "no-repeat",
     backgroundSize : "cover"
 
 }}>
-        <div className="heroContainer home-hero1">
           <div className="home-container01">
             <h1 className="home-hero-heading heading1">
               Discover the Perfect Lightroom Presets
