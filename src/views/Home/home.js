@@ -3,7 +3,7 @@ import Header from '../../components/Header/Header'
 import { Helmet } from 'react-helmet'
 import FeatureCard from '../../components/feature-card'
 import Question1 from '../../components/question1'
-import HomeBg from "./home-bg.png"
+import HomeBg from "./bg.jpg"
 import './home.css'
 
 const Home = (props) => {
@@ -13,12 +13,12 @@ const Home = (props) => {
         <title>JHRCREATOR</title>
       </Helmet>
 <Header />
-      <div className="home-hero">
-        <div className="heroContainer home-hero1" style={{backgroundImage : `url(${HomeBg})`,
-                          backgroundRepeat : "no-repeat",
-                          backgroundSize : "cover"
-      
-      }}>
+      <div className="home-hero" style={{backgroundImage : `url(${HomeBg})`,
+    backgroundRepeat : "no-repeat",
+    backgroundSize : "cover"
+
+}}>
+        <div className="heroContainer home-hero1">
           <div className="home-container01">
             <h1 className="home-hero-heading heading1">
               Discover the Perfect Lightroom Presets

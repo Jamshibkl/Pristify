@@ -6,7 +6,6 @@ function Login() {
     <div className="login_section" style={{backgroundImage : `url(${LoginBg})`,
     backgroundRepeat : "no-repeat",
     backgroundSize : "cover"
-
 }}>
         <div className="login wrap">
       <div className="h1">Login</div>

@@ -157,6 +157,7 @@
   align-items: flex-start;
   justify-content: center;
 }
+
 .home-container01 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;

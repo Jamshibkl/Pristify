@@ -1,8 +1,4 @@
-#app{
-    background-image: url(./bg.jpg);
-    background-repeat: no-repeat;
-    background-size:cover ;
-}
+
 .register{
     display: flex;
     align-items: center;

@@ -3,7 +3,7 @@ import React from 'react';
 function SearchComponent({ searchCourse, courseSearchUserFunction }) {
     return (
         <header className="App-header">
-            <h1>Enhance your photos with our amazing collection of lightroom presets</h1>
+
             <div className="search-bar">
                 <input
                     type="text"

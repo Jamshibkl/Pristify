@@ -1,5 +1,8 @@
+body{
+    background: #595959;
+}
 .App-header {
-    background-color: #fff;
+    background-color: #595959;
     padding: 20px;
     color: #111;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -13,6 +16,7 @@
     justify-content: center;
     padding: 20px;
     align-items: center;
+    background-color: #595959;
 }
 
 /* Search Component */
@@ -58,8 +62,8 @@
 }
  
 .product {
-    background-color: rgb(255, 245, 245);
-    border: 1px solid #1b4e1f;
+    background-color: #000000;
+    border: 1px solid white;
     border-radius: 10%;
     padding: 10px 60px;
     text-align: center;
@@ -96,12 +100,12 @@
 .product h2 {
     font-size: 1.5rem;
     margin: 10px 0;
-    color: #323754;
+    color: #FFF;
 }
  
 .product p {
     font-size: 1.1rem;
-    color: #777;
+    color: #FFF;
     margin: 5px 0;
 }
  
@@ -110,7 +114,7 @@
     flex: 1;
     min-width: 300px;
     margin-top: 3%;
-    background-color: #fff9e6;
+    background-color: #111;
     border: 2px solid #193d10;
     border-radius: 20px;
     padding: 10px 20px;
@@ -268,9 +272,9 @@
 }
  
 .add-to-cart-button {
-    background-color: #6cc24a;
+    background-color: yellow;
     border: none;
-    color: white;
+    color: black;
     padding: 8px 15px;
     border-radius: 20px;
     cursor: pointer;
@@ -279,7 +283,7 @@
 }
  
 .add-to-cart-button:hover {
-    background-color: #449e30;
+    background-color: yellowgreen;
 }
  
 .item-info {
