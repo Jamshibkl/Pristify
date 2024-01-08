@@ -55,4 +55,4 @@ This project is licensed under the MIT License.
 React.js: https://reactjs.org/
 Payment Gateway: [Add payment gateway name here]
 #### Contact
-For any inquiries, please contact [(jamshibkl3@gmail.com)].
+For any inquiries, please contact [jamshibkl3@gmail.com].
