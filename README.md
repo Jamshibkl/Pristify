@@ -4,7 +4,7 @@
 
 Welcome to the Lightroom Preset Selling Website project! This web application is built using React.js and serves as a platform for selling and showcasing Lightroom presets.
 
-## Features 🌟
+## 🌟 Features 
 
 - **User Authentication:** Allow users to create accounts, log in, and manage their profiles.
 - **Preset Showcase:** Display a gallery of Lightroom presets with the ability to preview them.
