@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/Header/Header'
 import { Helmet } from 'react-helmet'
 import FeatureCard from '../../components/feature-card'
-import Question1 from '../../components/question1'
+
 import HomeBg from "./bg.jpg"
 import './home.css'
 
@@ -412,47 +412,6 @@ const Home = (props) => {
             </span>
           </span>
           <button className="buttonFilled">Learn More</button>
-        </div>
-      </div>
-      <div className="home-faq">
-        <div className="faqContainer">
-          <div className="home-faq1">
-            <div className="home-container28">
-              <span className="overline">
-                <span>FAQ</span>
-                <br></br>
-              </span>
-              <h2 className="home-text84 heading2">Common questions</h2>
-              <span className="home-text85 bodyLarge">
-                <span>
-                  Here are some of the most common questions that we get.
-                </span>
-                <br></br>
-              </span>
-            </div>
-            <div className="home-container29">
-              <Question1
-                Answer="Lightroom presets are pre-configured settings that can be applied to your photos in Adobe Lightroom. They allow you to quickly enhance and transform your images with just one click."
-                Question="What are Lightroom presets?"
-              ></Question1>
-              <Question1
-                Answer="To install Lightroom presets, simply open Adobe Lightroom, go to the Develop module, and then click on the '+' icon next to the Presets panel. Choose 'Import Presets' and select the preset files you want to install."
-                Question="How do I install Lightroom presets?"
-              ></Question1>
-              <Question1
-                Answer="Yes, you can use Lightroom presets on your mobile device by installing the Adobe Lightroom mobile app. Once installed, you can import and apply presets to your photos just like on the desktop version."
-                Question="Can I use Lightroom presets on my mobile device?"
-              ></Question1>
-              <Question1
-                Answer="Yes, you will need Adobe Lightroom (either the desktop or mobile version) to use these presets. They are specifically designed for use within the Lightroom software."
-                Question="Do I need Adobe Lightroom to use these presets?"
-              ></Question1>
-              <Question1
-                Answer="Absolutely! While presets provide a great starting point for editing your photos, you can always make adjustments and fine-tune them to match your personal preferences and creative vision."
-                Question="Can I customize the presets to suit my own style?"
-              ></Question1>
-            </div>
-          </div>
         </div>
       </div>
       <div className="home-footer">
