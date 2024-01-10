@@ -1,10 +1,10 @@
-# Lightroom Preset Selling Website
+# Lightroom Preset Selling Website 🖼️ 📸
 
-## Overview
+## ⚡ Overview
 
 Welcome to the Lightroom Preset Selling Website project! This web application is built using React.js and serves as a platform for selling and showcasing Lightroom presets.
 
-## Features
+## Features 🌟
 
 - **User Authentication:** Allow users to create accounts, log in, and manage their profiles.
 - **Preset Showcase:** Display a gallery of Lightroom presets with the ability to preview them.
@@ -12,7 +12,7 @@ Welcome to the Lightroom Preset Selling Website project! This web application is
 - **Payment Integration:** Integrate a secure payment gateway for processing transactions.
 - **Admin Panel:** Provide an admin interface to manage presets, users, and orders.
 
-## Getting Started
+##  ✨ Getting Started
 
 ### Prerequisites
 
@@ -55,4 +55,4 @@ This project is licensed under the MIT License.
 React.js: https://reactjs.org/
 Payment Gateway: [Add payment gateway name here]
 #### Contact
-For any inquiries, please contact [(jamshibkl3@gmail.com)].
+For any inquiries, please contact jamshibkl3@gmail.com.
