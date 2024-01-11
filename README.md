@@ -54,5 +54,5 @@ This project is licensed under the MIT License.
 ### Acknowledgements
 React.js: https://reactjs.org/
 Payment Gateway: [Add payment gateway name here]
-#### Contact
+### Contact
 For any inquiries, please contact jamshibkl3@gmail.com.
