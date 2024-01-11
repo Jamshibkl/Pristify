@@ -48,7 +48,7 @@ function Header() {
           >
             <div className="home-nav">
               <div className="home-top">
-                <span className="logo">PRESETS</span>
+                <span className="logo">JHRCREATOR</span>
                 <div data-thq="thq-close-menu" className="home-close-menu">
                   <svg
                     viewBox="0 0 1024 1024"
@@ -59,15 +59,31 @@ function Header() {
                 </div>
               </div>
               <nav className="home-links1">
-                <span>Home</span>
+                <Link to="/">
+                   <span>Home</span>
+                </Link>
+               <Link to="/shop">
                 <span className="home-nav21 bodySmall">Shop</span>
+               </Link>
+               <Link to="/about">
                 <span className="home-nav31 bodySmall">About</span>
-                <span className="home-nav41 bodySmall">FAQ</span>
-                <span className="home-nav51 bodySmall">Contact</span>
+               </Link>
+             <Link to="/faq">
+              <span className="home-nav41 bodySmall">FAQ</span>
+             </Link>
+             <Link to="/contact">
+             <span className="home-nav51 bodySmall">Contact</span>
+             </Link>
+               
+            
               </nav>
               <div className="home-buttons1">
-                <button className="buttonFlat">Login</button>
+                <Link to="/login">
+                    <button className="buttonFlat">Login</button>
+                </Link>
+                <Link to="/register"> 
                 <button className="buttonFilled">Register</button>
+                </Link>
               </div>
             </div>
             <div>

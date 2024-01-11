@@ -1,33 +1,68 @@
-/* Add your global styles here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
-.MDBContainer {
-    margin-top: 50px;
-    max-width: 1000px;
-    margin: 150px auto; /* Center the container horizontally */
+body {
+  background-color: #161616;
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  width: 100%;
+}
+.container h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+details {
+  background-color: #212121;
+  color: #fff;
+  max-width: 1200px; /* Set a maximum width */
+  width: 90%; /* Make it responsive to the viewport width */
+  margin: 10px auto; /* Center the details element */
+  padding: 15px;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  align-items: center;
+}
+
+summary {
+  padding: 0.5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after {
+  content: "\002B";
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+details[open] summary:after {
+  content: "\00D7";
+}
+
+details[open] div {
+  padding: 0.5em 1em;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  details {
+    font-size: 1.2rem; /* Adjust font size for tablets */
   }
-  
-  .MDBAccordionItem {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  details {
+    font-size: 1rem; /* Adjust font size for mobile devices */
   }
-  
-  .MDBAccordionItemTitle {
-    background-color: #f0f0f0;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .MDBAccordionItemTitle:hover {
-    background-color: #e0e0e0;
-  }
-  
-  .MDBAccordionItemContent {
-    padding: 10px;
-  }
-  
-  /* Customize the appearance of the strong element if needed */
-  .MDBAccordionItemContent strong {
-    font-weight: bold;
-    color: #333; /* Change the color as desired */
-  }
+}

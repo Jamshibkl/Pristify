@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/Header/Header'
 import { Helmet } from 'react-helmet'
 import FeatureCard from '../../components/feature-card'
-
+import FAQ from '../FAQ/FAQ'
 import HomeBg from "./bg.jpg"
 import './home.css'
 
@@ -414,6 +414,7 @@ const Home = (props) => {
           <button className="buttonFilled">Learn More</button>
         </div>
       </div>
+      <FAQ />
       <div className="home-footer">
         <footer className="footerContainer home-footer1">
           <div className="home-container30">
