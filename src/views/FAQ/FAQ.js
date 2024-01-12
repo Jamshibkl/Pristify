@@ -4,6 +4,7 @@ import './FAQ.css'
 function FAQ() {
   return (  
     <>
+     
       <Header />
       <div className="container">
       <h1>Frequently Asked Questions</h1>

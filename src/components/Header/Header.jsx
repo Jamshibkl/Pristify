@@ -21,9 +21,6 @@ function Header() {
              <Link to='/about'>
              <span className="home-nav3 bodySmall">About</span>
              </Link>
-             <Link to='/faq'>
-             <span className="home-nav4 bodySmall">FAQ</span>
-             </Link>
              <Link to='/contact'>
              <span className="home-nav5 bodySmall">Contact</span>
              </Link>
@@ -68,9 +65,6 @@ function Header() {
                <Link to="/about">
                 <span className="home-nav31 bodySmall">About</span>
                </Link>
-             <Link to="/faq">
-              <span className="home-nav41 bodySmall">FAQ</span>
-             </Link>
              <Link to="/contact">
              <span className="home-nav51 bodySmall">Contact</span>
              </Link>

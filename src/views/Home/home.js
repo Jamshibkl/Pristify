@@ -5,7 +5,7 @@ import FeatureCard from '../../components/feature-card'
 import FAQ from '../FAQ/FAQ'
 import HomeBg from "./bg.jpg"
 import './home.css'
-
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 const Home = (props) => {
   return (
     <div className="home-container">
@@ -88,8 +88,13 @@ const Home = (props) => {
               </span>
             </span>
             <div className="home-btn-group">
+              <Link to="/shop">
               <button className="buttonFilled">Shop Now</button>
-              <button className="buttonFlat">Learn More →</button>
+              </Link>
+             <Link to="/about">
+             <button className="buttonFlat">Learn More →</button>
+             </Link>
+             
             </div>
           </div>
         </div>
