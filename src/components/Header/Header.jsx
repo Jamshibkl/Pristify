@@ -8,7 +8,7 @@ function Header() {
           data-thq="thq-navbar"
           className="navbarContainer home-navbar-interactive"
         >
-          <span className="logo">JHRCREATOR</span>
+          <span className="logo">PRISTIFY</span>
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links">
                 <Link to='/'>

@@ -10,7 +10,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>JHRCREATOR</title>
+        <title>PRISTIFY</title>
       </Helmet>
 <Header />
       <div className="home-hero">
@@ -423,7 +423,7 @@ const Home = (props) => {
       <div className="home-footer">
         <footer className="footerContainer home-footer1">
           <div className="home-container30">
-            <span className="logo">JHRCREATOR</span>
+            <span className="logo">PRISTIFY</span>
             <nav className="home-nav1 bodySmall home-nav1" style={{color :"white"}}>
               <span className="home-nav11 bodySmall">Home</span>
               <span className="home-nav22 bodySmall">Shop</span>
