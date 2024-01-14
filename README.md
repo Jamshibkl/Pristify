@@ -1,4 +1,4 @@
-# Lightroom Preset Selling Website 🖼️ 
+# Lightroom Preset Selling Website 
 
 ## ⚡ Overview
 
