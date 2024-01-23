@@ -1,6 +1,7 @@
 import React from "react";
 import "./Login.css";
 import LoginBg from './bg.jpg'
+import typing from './avatar.jpg'
 function Login() {
   return (
     <div className="login_section" style={{backgroundImage : `url(${LoginBg})`,
@@ -23,6 +24,12 @@ function Login() {
         type="password"
       />
       <input value="Login" className="btn" type="submit" />
+    </div>
+    <div className="avatar">
+      <img src={typing} alt="avatar"/>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, 
+        nam eius molestias <br></br>aperiam sunt repellat itaque officiis dolorem earum quisquam.Lorem ipsum dolor, sit amet 
+        <br />consectetur adipisicing elit. Ea, praesentium.</p>
     </div>
     </div>
   );
