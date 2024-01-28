@@ -151,6 +151,7 @@ body{
     margin: 15px 0;
     padding: 10px;
     border-bottom: 1px solid #e0e0e0;
+    max-width: fit-content;
 }
  
 .cart-item .item-image img {

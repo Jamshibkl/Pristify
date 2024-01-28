@@ -10,7 +10,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>PRISTIFY</title>
+        {/* <title></title> */}
       </Helmet>
 <Header />
       <div className="home-hero">
