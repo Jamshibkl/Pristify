@@ -1,13 +1,13 @@
 import React from "react";
 import "./Login.css";
-import LoginBg from './bg.jpg'
-import typing from './avatar.jpg'
+import avatar from './Login-bro.svg'
+import Header from "../../components/Header/Header";
 function Login() {
   return (
-    <div className="login_section" style={{backgroundImage : `url(${LoginBg})`,
-    backgroundRepeat : "no-repeat",
-    backgroundSize : "cover"
+  
+    <div className="login_section" style={{background:"#222222"
 }}>
+    <Header />
         <div className="login wrap">
       <div className="h1">Login</div>
       <input
@@ -26,8 +26,8 @@ function Login() {
       <input value="Login" className="btn" type="submit" />
     </div>
     <div className="avatar">
-      <img src={typing} alt="avatar"/>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, 
+      <img src={avatar} alt="avatar"/>
+      <p style={{color :"white"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, 
         nam eius molestias <br></br>aperiam sunt repellat itaque officiis dolorem earum quisquam.Lorem ipsum dolor, sit amet 
         <br />consectetur adipisicing elit. Ea, praesentium.</p>
     </div>

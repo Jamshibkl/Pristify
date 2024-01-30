@@ -8,11 +8,11 @@
 .login {
     width: 340px;
     height: 400px;
-    background: white;
+    background: #3f3c3c;
     padding: 47px;
     padding-bottom: 57px;
-    color: #003EB3;
-    border: 1px solid #003EB3;
+    color: white;
+    border: 1px solid #BDE420;
     border-radius: 17px;
     padding-bottom: 50px;
     margin-left: 150px;
@@ -24,7 +24,7 @@
   .login input[type="password"] {
     opacity: 1;
     display: block;
-    border: 1px solid #003EB3;
+    border: 1px solid #BDE420;
     outline: none;
     width: 100%;
     padding: 13px 18px;
@@ -32,7 +32,7 @@
     font-size: 0.8em;
     border-radius: 100px;
     background: transparent;
-    color: black;
+    color: white;
   }
   
   .login input:focus {
@@ -40,7 +40,18 @@
   }
   
   .login input[type=submit],
-  .login input[type=button],
+  .login input[type=button]
+  {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding: 13px;
+    margin: 40px 0 0 0;
+    border-radius: 500px;
+    font-weight: 600;
+    animation: bounce2 1.6s;
+    color: black;
+  }
   .h1 {
     border: 0;
     outline: 0;
@@ -50,6 +61,7 @@
     border-radius: 500px;
     font-weight: 600;
     animation: bounce2 1.6s;
+    color: white;
   }
   
   .h1 {
@@ -59,34 +71,36 @@
     display: block;
     margin-bottom: -0px;
     font-size: 1.3em;
+    
   }
   
   .btn {
-    background: #003EB3;
-    color: white;
+    background: #BDE420;
+    color: black;
     padding: 16px !important;
-    border: 1px solid #003EB3 !important;
+    /* border: 1px solid white!important; */
   }
   
   .btn:hover {
-    background: #1a61e6;
-    color: white;
+    background: #bde420c7;
+    color: black;
     padding: 16px !important;
     cursor: pointer;
     transition: all 0.4s ease;
-    border: 1px solid white;
+    border: 1px solid #BDE420;
   }
   
-  .login input[type=text] {
+  /* .login input[type=text] {
     animation: bounce 1s;
   }
   
   .login input[type=password] {
     animation: bounce1 1.3s;
-  }
+  } */
   .avatar{
     margin-left:150px;
     width: 50rem;
+    margin-top: 50px;
   }
   .avatar img{
     width: 28rem;
@@ -94,7 +108,7 @@
   .ui {
     font-weight: bolder;
     border-bottom: 4px solid transparent;
-    border-image: linear-gradient(0.25turn, #535EFC, #0EC8EE, #0EC8EE);
+    
     border-image-slice: 1;
     display: inline;
   }
@@ -106,14 +120,14 @@
     }
   }
   
-  @keyframes bounce {
+  /* @keyframes bounce {
     0% {
       transform: translateY(-250px);
       opacity: 0;
     }
-  }
+  } */
   
-  @keyframes bounce1 {
+  /* @keyframes bounce1 {
     0% {
       opacity: 0;
     }
@@ -133,4 +147,4 @@
       transform: translateY(-20px);
       opacity: 0;
     }
-  }
+  } */
