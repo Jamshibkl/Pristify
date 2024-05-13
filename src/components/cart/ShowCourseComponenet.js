@@ -19,7 +19,7 @@ function ShowCourseComponent({ courses,
                             className="add-to-cart-button"
                             onClick={() => addCourseToCartFunction(product)}
                         >
-                            Add to Shopping Cart
+                            ADD TO CART
                         </button>
                     </div>
                 ))

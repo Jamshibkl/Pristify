@@ -23,8 +23,7 @@ body{
 .search-bar {
     width: 100%;
     max-width: 400px;
-    margin-top: 100px;
-    margin-left: 550px;
+    margin-top: 80px;
     display: flex;
     align-items: center;
     background-color: white;
@@ -41,6 +40,7 @@ body{
     font-size: 16px;
     background-color: #ffffff;
     transition: background-color 0.3s ease-in-out;
+    margin: 0;
 }
  
 .search-bar input:focus {
@@ -67,7 +67,6 @@ body{
     border-radius: 12px;
     padding: 10px 100px;
     text-align: center;
-    width: 33%;
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
     overflow: hidden;
@@ -258,19 +257,30 @@ body{
         flex-direction: column;
         align-items: center;
     }
- 
+    .search-bar {
+        margin-left: 0;
+    }
     .product-list {
         width: 100%;
         margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
     }
  
     .product {
-        width: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0;
     }
  
     .cart {
         min-width: unset;
         margin-top: 30px;
+    }
+    .add-to-cart-button {
+        padding: 5px;
     }
 }
  
@@ -306,6 +316,9 @@ body{
 .product-list {
     padding-bottom: 5%;
     border-bottom: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
  
 .checkout-section {

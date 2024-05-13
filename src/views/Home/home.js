@@ -249,7 +249,7 @@ const Home = (props) => {
                 Continue with Free
               </button>
             </div>
-            <div className="basicPricingCard home-pricing-card1">
+            <div className="basicPricingCard home-pricing-card">
               <div className="home-container12">
                 <span className="home-text43 heading3">BASIC</span>
                 <span className="bodySmall">
@@ -291,7 +291,7 @@ const Home = (props) => {
                 Try the Basic plan
               </button>
             </div>
-            <div className="proPricingCard home-pricing-card2">
+            <div className="proPricingCard home-pricing-card">
               <div className="home-container20">
                 <span className="home-text54 heading3">
                   <span>PRO</span>

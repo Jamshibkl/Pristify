@@ -1,12 +1,15 @@
 
+
 /* styles.css */
 
 /* Contact Section Styles */
 .contact-container {
     max-width: 100%;
-    margin: 40px auto;
     padding: 180px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
   }
   
   .contact-heading {
@@ -51,57 +54,18 @@
   button:hover {
     background-color: #9ea01c;
   }
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+    }
 
-/* styles.css */
+    .contact-heading {
+        font-size: 1.5em;
+    }
 
-/* Contact Section Styles */
-.contact-container {
-    max-width: 100%;
-    margin: 40px auto;
-    padding: 180px;
-    background-color: #fff;
-  }
-  
-  .contact-heading {
-    color: black;
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
-  
-  .contact-description {
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    margin-bottom: 5px;
-    color: #333;
-  }
-  
-  input,
-  textarea {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button {
-    padding: 10px;
-    background-color: #c5cb22;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #9ea01c;
-  }
-
+    .contact-description {
+        margin-bottom: 5px;
+    }
+}

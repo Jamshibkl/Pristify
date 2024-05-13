@@ -1,150 +1,138 @@
-
-.login_section{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    height: 100vh;
+* {
+  padding: 0;
+  margin: 0;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+  align-items: center;
+  height: 100vh;
 }
 .login {
-    width: 340px;
-    height: 400px;
-    background: #3f3c3c;
-    padding: 47px;
-    padding-bottom: 57px;
-    color: white;
-    border: 1px solid #BDE420;
-    border-radius: 17px;
-    padding-bottom: 50px;
-    margin-left: 150px;
-    font-size: 1.3em;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  
-  .login input[type="text"],
-  .login input[type="password"] {
-    opacity: 1;
-    display: block;
-    border: 1px solid #BDE420;
-    outline: none;
+  width: 400px;
+  height: auto;
+  background: #3f3c3c;
+  padding: 47px;
+  padding-bottom: 57px;
+  color: white;
+  border: 1px solid #bde420;
+  border-radius: 17px;
+  padding-bottom: 50px;
+  font-size: 1.3em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  opacity: 1;
+  display: block;
+  border: 1px solid #bde420;
+  outline: none;
+  width: 100%;
+  padding: 13px 18px;
+  margin: 20px 0 0 0;
+  font-size: 0.8em;
+  border-radius: 100px;
+  background: transparent;
+  color: white;
+  position: relative;
+}
+
+.login input:focus {
+  animation: bounce 1s;
+}
+
+.login input[type="submit"],
+.login input[type="button"] {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 13px;
+  border-radius: 500px;
+  font-weight: 600;
+  animation: bounce2 1.6s;
+  color: black;
+  margin: 20px 0 0 0;
+}
+.h1 {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 13px;
+  margin: 40px 0 0 0;
+  border-radius: 500px;
+  font-weight: 600;
+  animation: bounce2 1.6s;
+  color: white;
+}
+
+.h1 {
+  padding: 0;
+  position: relative;
+  top: -35px;
+  display: block;
+  margin-bottom: -0px;
+  font-size: 1.3em;
+}
+
+.btn {
+  background: #bde420;
+  color: black;
+  padding: 16px !important;
+  border: 1px solid white !important;
+}
+
+.btn:hover {
+  background: #bde420c7;
+  color: black;
+  padding: 16px !important;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  border: 1px solid #bde420;
+}
+.avatar {
+  width: auto;
+}
+.avatar img {
+  width: auto;
+  height: 500px;
+}
+.ui {
+  font-weight: bolder;
+  border-bottom: 4px solid transparent;
+
+  border-image-slice: 1;
+  display: inline;
+}
+.login-para p {
+  margin: 10px;
+  font-size: 18px;
+}
+.login-para p:nth-child(1) {
+  text-decoration: underline;
+  text-align: end;
+  cursor: pointer;
+}
+.login-para span {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .login {
     width: 100%;
-    padding: 13px 18px;
-    margin: 20px 0 0 0;
-    font-size: 0.8em;
-    border-radius: 100px;
-    background: transparent;
-    color: white;
+    padding: 3rem;
+    margin: 20px;
   }
-  
-  .login input:focus {
-    animation: bounce 1s;
-  }
-  
-  .login input[type=submit],
-  .login input[type=button]
-  {
-    border: 0;
-    outline: 0;
-    width: 100%;
-    padding: 13px;
-    margin: 40px 0 0 0;
-    border-radius: 500px;
-    font-weight: 600;
-    animation: bounce2 1.6s;
-    color: black;
-  }
-  .h1 {
-    border: 0;
-    outline: 0;
-    width: 100%;
-    padding: 13px;
-    margin: 40px 0 0 0;
-    border-radius: 500px;
-    font-weight: 600;
-    animation: bounce2 1.6s;
-    color: white;
-  }
-  
-  .h1 {
+  .login-container {
     padding: 0;
-    position: relative;
-    top: -35px;
-    display: block;
-    margin-bottom: -0px;
-    font-size: 1.3em;
-    
   }
-  
-  .btn {
-    background: #BDE420;
-    color: black;
-    padding: 16px !important;
-    /* border: 1px solid white!important; */
+  .login-para p {
+    font-size: 15px;
+    margin: 10px;
   }
-  
-  .btn:hover {
-    background: #bde420c7;
-    color: black;
-    padding: 16px !important;
-    cursor: pointer;
-    transition: all 0.4s ease;
-    border: 1px solid #BDE420;
-  }
-  
-  /* .login input[type=text] {
-    animation: bounce 1s;
-  }
-  
-  .login input[type=password] {
-    animation: bounce1 1.3s;
-  } */
-  .avatar{
-    margin-left:150px;
-    width: 50rem;
-    margin-top: 50px;
-  }
-  .avatar img{
-    width: 28rem;
-  }
-  .ui {
-    font-weight: bolder;
-    border-bottom: 4px solid transparent;
-    
-    border-image-slice: 1;
-    display: inline;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .login {
-      width: 70%;
-      padding: 3em;
-    }
-  }
-  
-  /* @keyframes bounce {
-    0% {
-      transform: translateY(-250px);
-      opacity: 0;
-    }
-  } */
-  
-  /* @keyframes bounce1 {
-    0% {
-      opacity: 0;
-    }
-  
-    40% {
-      transform: translateY(-100px);
-      opacity: 0;
-    }
-  }
-  
-  @keyframes bounce2 {
-    0% {
-      opacity: 0;
-    }
-  
-    70% {
-      transform: translateY(-20px);
-      opacity: 0;
-    }
-  } */
+}

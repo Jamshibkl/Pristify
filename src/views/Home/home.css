@@ -94,7 +94,6 @@
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
 .home-close-menu {
@@ -131,7 +130,6 @@
 }
 .home-buttons1 {
   display: flex;
-  margin-top: var(--dl-space-space-unit);
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
@@ -209,6 +207,7 @@
 }
 .home-features-heading {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
 }
 .home-features-sub-heading {
   font-size: 18px;
@@ -656,6 +655,7 @@
   }
   .home-hero-heading {
     text-align: center;
+    padding: 50px 0px;
   }
   .home-hero-sub-heading {
     text-align: center;
@@ -702,6 +702,12 @@
   .home-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+  }
+  .home-buttons1 a {
+    margin: 10px;
+  }
+  .home-links1 a {
+    padding: 20px;
   }
   .home-desktop-menu {
     display: none;
@@ -762,18 +768,7 @@
     max-width: 450px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
-  }
-  .home-pricing-card1 {
-    width: 100%;
-    max-width: 450px;
-    margin-right: 0px;
-    margin-bottom: var(--dl-space-space-twounits);
-  }
-  .home-pricing-card2 {
-    width: 100%;
-    max-width: 450px;
-    margin-right: 0px;
-    margin-bottom: var(--dl-space-space-twounits);
+    align-items: center;
   }
   .home-banner1 {
     padding-left: var(--dl-space-space-twounits);
