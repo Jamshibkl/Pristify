@@ -45,7 +45,7 @@ function Header() {
           >
             <div className="home-nav">
               <div className="home-top">
-                <span className="logo">JHRCREATOR</span>
+                <span className="logo">PRISTIFY</span>
                 <div data-thq="thq-close-menu" className="home-close-menu">
                   <svg
                     viewBox="0 0 1024 1024"
